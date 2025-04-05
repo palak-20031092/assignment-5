@@ -1,0 +1,10 @@
+CGI vs Servlets
+CGI (Common Gateway Interface):
+1. Each request spawns a new process.
+2. Slower performance due to heavy resource use.
+3. Language-independent (can use Python, Perl, etc.).
+
+Servlets:
+1.Runs inside servlet container (like Tomcat).
+2. Single instance handles multiple requests using threads.
+3.Faster, more efficient, and Java-based.
